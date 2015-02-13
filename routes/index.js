@@ -20,7 +20,7 @@ var basic = auth.basic({
 });
 
 app.use(auth.connect(basic));
-
+app.use(express.static(__dirname + '/../frontend/dist/'));
 app.get('/', function(req, res){
   res.render('index');
 });
