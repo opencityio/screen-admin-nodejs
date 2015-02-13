@@ -10,7 +10,7 @@
   "dependencies": {
     "colors": "^1.0.3",
     "express": "^4.11.2",
-    "gaikan": "git://github.com/barringtonhaynes/gaikan.git",
+    "gaikan": "barringtonhaynes/gaikan",
     "http-auth": "^2.2.5",
     "nconf": "^0.7.1"
   },
