@@ -1,0 +1,17 @@
+{
+  "name": "screen-admin-nodejs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Warning: No tests specified\" && exit 0"
+  },
+  "author": "Open City",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "express": "^4.11.2",
+    "gaikan": "git://github.com/barringtonhaynes/gaikan.git",
+    "nconf": "^0.7.1"
+  },
+  "devDependencies": {}
+}

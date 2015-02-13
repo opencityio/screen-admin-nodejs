@@ -1,0 +1,11 @@
+Gruntfile.js
+newrelic.js
+
+.local/**
+assets/**
+bower_components/**
+build/**
+coverage/**
+node_modules/**
+public/**
+test/**

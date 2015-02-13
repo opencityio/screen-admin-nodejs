@@ -1,0 +1,16 @@
+{
+  "execMap": {
+    "js": "node server.js"
+  },
+  "verbose": true,
+  "ignore": [
+    "assets/*",
+    "bower_components/*",
+    "build/*",
+    "coverage/*",
+    "node_modules/*",
+    "public/*",
+    "data/*"
+  ],
+  "ext": "js json"
+}
