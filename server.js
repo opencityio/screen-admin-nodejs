@@ -29,10 +29,12 @@ global.nconf = nconf;
 global.express = express;
 
 // Set templating engine
-app.set('view engine', '.html');
-app.engine('html', gaikan);
 gaikan.options.enableCache = false;
 gaikan.options.enableCompression = false;
+gaikan.options.directories = ['frontend/views'];
+app.set('views', [process.cwd() + '/frontend/views']);
+app.set('view engine', '.html');
+app.engine('html', gaikan);
 
 // Determine IP Address through proxy
 app.enable('trust proxy');

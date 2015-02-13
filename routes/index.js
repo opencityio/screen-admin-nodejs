@@ -22,7 +22,7 @@ var basic = auth.basic({
 app.use(auth.connect(basic));
 
 app.get('/', function(req, res){
-  res.send('Index');
+  res.render('index');
 });
 
 // 404 if no file or route is found
