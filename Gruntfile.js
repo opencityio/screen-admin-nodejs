@@ -94,7 +94,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['watch']);
-  grunt.registerTask('test', ['jshint:src', 'build', 'simplemocha']);
+  grunt.registerTask('test', ['jshint:src', 'simplemocha']);
 
   grunt.registerTask('build:setup', ['clean:dist', 'copy']);
   grunt.registerTask('build:js', ['browserify', 'uglify:dist']);
